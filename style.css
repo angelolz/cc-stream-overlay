@@ -1,0 +1,25 @@
+html {
+    font-family: 'Kavoon', cursive;
+}
+
+body {
+    margin: 0
+}
+
+#cookie {
+    height: 125px;
+    width: 125px;
+    padding: 5px 15px 5px 5px;
+}
+
+#stats {
+    font-size: 54px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
