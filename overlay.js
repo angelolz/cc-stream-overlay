@@ -25,7 +25,7 @@ function setupWebsocket()
             cycleNum++;
             console.log("cycleNum: ", cycleNum)
 
-        }, 5000)
+        }, 15000)
     }
 
     ws.onclose = function(event) {
