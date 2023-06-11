@@ -7,14 +7,22 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 #cookie {
-    height: 125px;
-    width: 125px;
-    padding: 5px 15px 5px 5px;
-    z-index: 9;
+    height: 100px;
+    width: 100px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    z-index: 1;
+}
+
+#shine {
+    height: 150px;
+    width: 150px;
+    animation: spin 15s linear infinite;
 }
 
 .stats {
@@ -78,5 +86,15 @@ body {
     100% {
         opacity: 100%;
         transform: translateX(0px);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
     }
 }
